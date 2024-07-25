@@ -37,5 +37,31 @@ The project consists of the following tasks:
 8. **Calculate the Number of Orders and Value at Pending Status in 2014**
    - Determine the number of orders and the total value of orders that were in a pending status in 2014.
 
+## Dataset
+
+The dataset used for this analysis is stored in Google BigQuery and includes detailed information on sales orders, products, and customers. Below are the details of the dataset:
+
+- **BigQuery Project Name**: `Project Bicycle-Manufacturing-Performance-and-Trends-Analysis`
+- **BigQuery Dataset Name**: `adventureworks2019`
+
+### Tables Used
+
+- **SalesOrderDetail**: Contains detailed information on each sales order.
+- **Product**: Includes information on products.
+- **ProductSubcategory**: Contains data on product subcategories.
+- **SalesOrderHeader**: Summary information for each sales order.
+- **SpecialOffer**: Details on special offers and discounts.
+
+### Accessing the Dataset
+
+To access the dataset, follow these steps:
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+2. Select your project: `Project Bicycle-Manufacturing-Performance-and-Trends-Analysis`.
+3. Navigate to BigQuery.
+4. In the Explorer panel, locate the dataset: `adventureworks2019`.
+
+You can query the dataset using SQL in the BigQuery console or any BigQuery-supported client.
+
 ----------
 We hope this project provides valuable insights into the performance and trends of the bicycle manufacturing process. Happy analyzing!
